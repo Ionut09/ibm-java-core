@@ -23,6 +23,7 @@ public class AnimalPark {
 		rex.eat();
 		System.out.println();
 		System.out.println();
+		
 		//'Animal' is abstract; cannot be instantiated
 		Animal pet;//= new Animal("Cat", 5, 30);
 		pet = new Dog("Rex", "Labrador");
