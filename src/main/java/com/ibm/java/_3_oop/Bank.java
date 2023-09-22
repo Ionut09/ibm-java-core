@@ -6,6 +6,7 @@ public class Bank {
 		Account myAccount = new Account();
 		
 		Account euroAccount = new Account("RO29RNCBEUR21872981739", "Ionut", "EUR", 0.0);
+		euroAccount.deposit(1000);
 		System.out.println("euroAccount.iban -> " + euroAccount.iban);
 		System.out.println("euroAccount.username -> " + euroAccount.username);
 		System.out.println("euroAccount.currency -> " + euroAccount.currency);
@@ -19,6 +20,8 @@ public class Bank {
 		System.out.println();
 		
 		Account ronAccount = new Account("RO29RNCBRON21872981739", "Ionut", "RON", 100.0);
+		ronAccount.withdraw(100);
+		
 		System.out.println("ronAccount.iban -> " + ronAccount.iban);
 		System.out.println("ronAccount.username -> " + ronAccount.username);
 		System.out.println("ronAccount.currency -> " + ronAccount.currency);
