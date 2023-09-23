@@ -74,14 +74,13 @@ public class ListPlay {
 		books.forEach(book -> System.out.println(book));
 		
 		//      comparator built with Lambda expression
-		books.sort((Book book1, Book book2) -> {
+		books.sort((book1, book2) -> {
 			Integer year1 = book1.getYear();
 			Integer year2 = book2.getYear();
 			return -1 * year1.compareTo(year2); //year in descending
 		});
 		System.out.println("\nSorted by year");
 		books.forEach(book -> System.out.println(book));
-		
 		
 	}
 	
