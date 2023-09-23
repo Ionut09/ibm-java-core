@@ -3,8 +3,6 @@ package com.ibm.java;
 import static org.testng.Assert.assertEquals;
 
 import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -71,7 +69,8 @@ public class TestMortgageCalculator {
 		Thread.sleep(1500);
 		
 		LinkedList<WebElement> radios = new LinkedList<>(driver.findElements(By.xpath("//span[contains(@class, 'rbmark')]")));
-		radios.getFirst().click();
+		radios.getFirst()
+		      .click();
 		Thread.sleep(1500);
 		
 		//When
