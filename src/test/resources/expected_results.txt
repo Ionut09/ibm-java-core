@@ -1,0 +1,11 @@
+Inputs:
+50.000 $
+25
+6
+25
+0
+
+
+Monthly Pay	$322.15
+Total Payments	$96,645.21
+Total Interest	$46,645.21
